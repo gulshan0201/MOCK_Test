@@ -1,0 +1,43 @@
+/* body{
+  background: url(https://img.freepik.com/free-photo/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.jpg?w=1060&t=st=1669885958~exp=1669886558~hmac=9335785978e8ab5f6de46c90e8c012699926c5d3376b0db677d12a2f3f573673);
+  background-position: center;
+  background-size: cover;
+  } */
+
+.login{
+  border: 1px solid white;
+  display: flex;  
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  background-color: #2f3e46;
+  opacity: 0.8;
+  border-radius: 20px;
+  border: none;
+}
+
+.login > span> label{
+  color: white;
+  background-color: #2f3e46;
+  font-size: 1.3rem;
+  padding-right: 9px;
+}
+
+.login > input {
+  border-color: #fff;
+  border-radius: 20px;
+  width: 50%;
+  align-items: center;
+  height: 20px;
+  color: black;
+  outline: none;
+  padding: 5px;
+}
+
+
+.login > Button:hover{
+  transition: 0.5s ease-in-out;
+  background-color: black;
+  color: #ffffff;
+  opacity: 1;
+}
